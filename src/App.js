@@ -11,6 +11,8 @@ import Effect from "./components/pages/useEffect/Effect";
 import Hooks from "./components/pages/hooks/Hooks";
 import Error from "./components/pages/error/Error";
 import Member1 from "./components/pages/member1/member1";
+import Member2 from "./components/pages/member2/member2";
+
 
 import './App.css';
 
@@ -31,6 +33,8 @@ function App() {
             <Route path="/map" element={<Map />} />
             <Route path="/hooks" element={<Hooks />} />
             <Route path="/member1" element={<Member1 />} />
+            <Route path="/member2" element={<Member2 />} />
+
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
