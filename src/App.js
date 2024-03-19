@@ -1,18 +1,19 @@
 // Importing browser router, install it first --- npm i -D react-router-dom@latest
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Importing components
 import Template from "./components/Template";
-import Nav from "./components/navbar/Nav";
 import Footer from "./components/footer/Footer";
-import Map from "./components/pages/map/Map";
-import States from "./components/pages/states/States";
-import Effect from "./components/pages/useEffect/Effect";
-import Hooks from "./components/pages/hooks/Hooks";
+import Nav from "./components/navbar/Nav";
 import Error from "./components/pages/error/Error";
+import Hooks from "./components/pages/hooks/Hooks";
+import Map from "./components/pages/map/Map";
 import Member1 from "./components/pages/member1/member1";
 import Member2 from "./components/pages/member2/member2";
 import Member3 from "./components/pages/member3/member3";
+import Member4 from "./components/pages/member4/member4";
+import States from "./components/pages/states/States";
+import Effect from "./components/pages/useEffect/Effect";
 
 
 import './App.css';
@@ -36,6 +37,7 @@ function App() {
             <Route path="/member1" element={<Member1 />} />
             <Route path="/member2" element={<Member2 />} />
             <Route path="/member3" element={<Member3 />} />
+            <Route path="/member4" element={<Member4 />} />
 
             <Route path="*" element={<Error />} />
           </Route>
