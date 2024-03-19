@@ -12,6 +12,7 @@ import Member1 from "./components/pages/member1/member1";
 import Member2 from "./components/pages/member2/member2";
 import Member3 from "./components/pages/member3/member3";
 import Member4 from "./components/pages/member4/member4";
+import Member5 from "./components/pages/member5/member5";
 import States from "./components/pages/states/States";
 import Effect from "./components/pages/useEffect/Effect";
 
@@ -38,7 +39,7 @@ function App() {
             <Route path="/member2" element={<Member2 />} />
             <Route path="/member3" element={<Member3 />} />
             <Route path="/member4" element={<Member4 />} />
-
+            <Route path="/member5" element={<Member5 />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
