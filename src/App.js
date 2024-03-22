@@ -13,6 +13,7 @@ import Member2 from "./components/pages/member2/member2";
 import Member3 from "./components/pages/member3/member3";
 import Member4 from "./components/pages/member4/member4";
 import Member5 from "./components/pages/member5/member5";
+import Member6 from "./components/pages/member6/member6";
 import States from "./components/pages/states/States";
 import Effect from "./components/pages/useEffect/Effect";
 
