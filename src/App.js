@@ -40,6 +40,7 @@ function App() {
             <Route path="/member3" element={<Member3 />} />
             <Route path="/member4" element={<Member4 />} />
             <Route path="/member5" element={<Member5 />} />
+            <Route path="/member6" element={<Member6 />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
